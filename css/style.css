@@ -1,0 +1,144 @@
+html {
+  background: url("background.jpg");
+  font-family: Raleway;
+  color: white;
+}
+
+h1 {
+  display: flex;
+  margin-left:auto;
+   margin-right:auto;
+  align-items: center;
+  font-family: Julius Sans One;
+  text-align: center;
+}
+
+.caca {
+  margin-left:auto;
+   margin-right:auto;
+   margin-top: 80px;
+  
+}
+
+a, a:hover, a:visited, a:active
+{
+	color:white;
+  text-decoration:none;
+  background-color: transparent;
+}
+
+#conteneur
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between; 
+  height: 100%; 
+}
+
+#hello {
+  text-align: center;
+}
+.test {
+  height: 333px;
+  width: 162px;
+}
+
+.pagination:last-child {
+  align-self: baseline;
+}
+
+#delete {
+ text-align: center;
+}
+
+.comment {
+  color: black;
+  font-size: 12;
+  background: grey;
+  border-bottom: black;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+}
+
+.likes {
+  color: black;
+}
+
+#gallery
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; 
+  height: 100%; 
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  padding: 5px;
+  padding-bottom: 20px;
+  margin: 20px;
+  background: #E6E6E6;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6E6E6E;
+  /* display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;  */
+}
+
+#filters {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#img1, #img2, #img3 {
+  width: 10em;
+  height: 10em; 
+}
+
+.img1, .img2, .img3 {
+  width: 8em;
+  height: 8em; 
+}
+
+element:nth-child(1) /* On prend le deuxième bloc élément */
+{
+  align-self: center;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.element:nth-child(2) /* On prend le deuxième bloc élément */
+{
+  padding: 10;
+  width: 30%;
+  background: black;
+  /* Seul ce bloc sera aligné à la fin */
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  padding-top: 80px;
+   padding-bottom: 80px;
+  border-style: solid;
+  border-spacing: 2px;
+  border-color: white;
+ 
+}
+
+p {
+  font-family: Raleway;
+  background-color: transparent;
+}
+
+.text {
+  font-family: Raleway;
+  background-color: transparent;
+}
